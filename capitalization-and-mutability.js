@@ -1,3 +1,3 @@
-function capitalizeWord(string){
-    return String.fromCharCode(string[0].charCodeAt(0) - 32) + string.substr(1);
+function capitalizeWord(word) {
+    return word.substr(0,1).toUpperCase() + word.substr(1);
 }
