@@ -1,4 +1,5 @@
-function ThinkfulLogicDrillsTrafficLight(light) {
+function updateLight(light) {
+
     switch (light) {
         case "green":
             light = "yellow";
@@ -14,4 +15,5 @@ function ThinkfulLogicDrillsTrafficLight(light) {
             break;
     }
     return light;
+
 }

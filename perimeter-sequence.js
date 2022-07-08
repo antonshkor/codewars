@@ -1,7 +1,3 @@
-function PerimeterSequence(a){
-    let sum = 0;
-    while (a){
-        sum += a--;
-    }
-    return sum;
+function perimeterSequence(a,n) {
+    return n * 4 * a;
 }

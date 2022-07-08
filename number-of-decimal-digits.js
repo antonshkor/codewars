@@ -1,4 +1,4 @@
-function NumberOfDecimalDigits(number){
+function digits(number) {
     let answer = 0;
     if(!number)
         ++answer;

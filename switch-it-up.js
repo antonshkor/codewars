@@ -1,4 +1,4 @@
-function SwitchItUp(num){
+function switchItUp(num){
     let word = "";
     switch (num){
         case 1:

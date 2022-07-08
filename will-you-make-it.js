@@ -1,3 +1,3 @@
-function WillYouMakeIt(miles, milesPerGalon, galons){
-    return miles <= (galons * milesPerGalon);
-}
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return distanceToPump <= (mpg * fuelLeft);
+};

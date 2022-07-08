@@ -1,4 +1,4 @@
-function TransportationOnVacation(days){
+function rentalCarCost(days) {
     let sum = 0;
     if(days >= 7)
         sum = days * 40 - 50;

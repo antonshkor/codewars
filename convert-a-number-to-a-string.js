@@ -1,4 +1,4 @@
-function ConvertANumberToAString(number){
+function numberToString(number) {
     let string = "";
     let isMinus = false;
     if(!number)

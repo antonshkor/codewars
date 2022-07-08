@@ -1,4 +1,4 @@
-function StudentsFinalGrade(exam, projects){
+function finalGrade (exam, projects) {
     let res = 0;
     if( (exam > 90) || (projects > 10)){
         res = 100;

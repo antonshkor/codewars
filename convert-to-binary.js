@@ -5,5 +5,9 @@ function toBinary(n){
     let ans = "";
     for (let i = 0; i < str.length; ++i)
         ans += str[str.length - (1 + i)];
-    return ans;
+    let number = 0;
+    for(let i = 0; i < ans.length; ++i)
+        number = number * 10 + (ans.charCodeAt(i) - 48);
+    return number;
 }
+

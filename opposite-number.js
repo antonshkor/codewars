@@ -1,3 +1,3 @@
-function  oppositeNumber(number){
+function opposite(number) {
     return -number;
 }

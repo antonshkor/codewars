@@ -1,4 +1,4 @@
-function ConvertAStringToANumber(string){
+const stringToNumber = function(string){
     let number = 0;
     let isMinus = false;
     if(string[0] === '-'){

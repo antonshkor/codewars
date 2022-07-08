@@ -1,3 +1,3 @@
-function ThirdAngleOfATriangle(first, sercond){
-    return 180 - (first + sercond);
+function otherAngle(first, second) {
+    return 180 - (first + second);
 }
